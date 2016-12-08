@@ -110,4 +110,51 @@ Las reglas presentadas a continuación fueron pensadas con el fin de interactuar
 
 ----------
 
+# Resultados. #
+
+A continuación se muestran algunas formas de aplicar las reglas de esta aplicación con el fin de demostrar su funcionalidad y posible utilidad en un futuro no muy lejano.
+
+    1 ?- platillo(sandwich).
+    true.
+    
+    2 ?- platillo(sopa_de_fideos).
+    false.
+
+Como podemos observar, la respuesta de nuestra aplicación es positiva cuando es posible elaborar un platillo y negativa en caso contrario. Podemos conocer los platillos disponibles mandando como parámetro una X como se muestra a continuación:
+
+    3 ?- platillo(X).
+    X = sandwich ;
+    X = quesadilla ;
+    X = ensalada_de_atun ;
+    X = cereal ;
+    X = pizza.
+
+Como podemos ver, solo contamos con cinco platillos. Conociendo esto podemos filtrar los platillos dependiendo de nuestra conveniencia, por ejemplo si queremos un platillo sencillo de realizar aplicamos la siguiente pregunta:
+    
+    4 ?- platillo_sencillo(X).
+    X = sandwich ;
+    X = quesadilla ;
+    X = ensalada_de_atun ;
+    X = cereal ;
+
+Aplicamos el parámetro X para que nos muestre todos los platillos sencillos de elaborar, otra opción es pedir los platillos más complicados:
+
+    5 ?- platillo_complicado(X).
+    X = pizza ;
+
+Nos restan dos reglas, una funciona para conocer los platillos que se pueden elaborar rápidamente, en este caso en menos de quince minutos:
+
+    6 ?- platillo_rapido(X).
+    X = sandwich ;
+    X = quesadilla ;
+    X = cereal ;
+
+Ahora, con la última regla podemos conocer el caso contrario, es decir, los platillos que se pueden elaborar en quince minutos o más:
+
+    7 ?- platillo_grande(X).
+    X = ensalada_atun ;
+    X = pizza.
+
+
+----------
 
