@@ -53,3 +53,38 @@ El motivo por el que propongo esta idea es porque muchas veces no administro bie
 
 ----------
 
+# Desarrollo. #
+
+**Hechos**
+
+Lo ingredientes fueron los primeros en ser declarados ya que practicamente toda la aplicacion funciona a partir de los mismos, en este caso me base en lo que regularmente estaba disponible en casa y algunos ingredientes de una de las comidas rapidas mas populares en el mundo.
+
+    %ingredientes disponibles
+    es_Ingrediente(jamon).
+    es_Ingrediente(queso).
+    es_Ingrediente(mayonesa).
+    es_Ingrediente(tomate).
+    es_Ingrediente(cebolla).
+    es_Ingrediente(lechuga).
+    es_Ingrediente(mostaza).
+    es_Ingrediente(pan_barra).
+ 
+
+Tambien declare algunas caracteristicas de los platillos que se pueden hacer con estos ingredientes con el fin de darle un poco mas de versatilidad a la informacion que se puede obtener de la aplicacion.
+
+    %Dificultad del platillo
+    dificultad(sandwich,sencillo).
+    
+    %Tiempo aproximado de preparacion de platillo(en minutos)
+    tiempo_de_preparacion_min(sandwich,12).
+
+    %ingredientes de platillos en lista
+    ingredientes_platillo(sandwich,jamon).
+    ingredientes_platillo(sandwich,queso).
+    ingredientes_platillo(sandwich,pan_barra).
+    ingredientes_platillo(sandwich,mayonesa).
+    ingredientes_platillo(sandwich,mostaza).
+    ingredientes_platillo(sandwich,lechuga).
+    ingredientes_platillo(sandwich,tomate).
+    ingredientes_platillo(sandwich,cebolla).
+
