@@ -41,8 +41,7 @@ La programación lógica nos sirve para comprender como trabaja una mente sin co
 
 La problemática surge a la hora de despertar o llegar a casa después de un largo día y lo único que pensamos en esos momentos es en la comida. Siempre revisamos nuestro refrigerador con la esperanza de encontrar el alimento que queremos, aquí es cuando surge esta idea la cual es: pasarle un poco de información al refrigerador y este nos proporcionara su contenido y ¿porque no?, posibles recetas que se puedan realizar con dicho contenido.
 
-
-
+<p align="center">![](http://oi63.tinypic.com/11azfpj.jpg)
 
 ----------
 
