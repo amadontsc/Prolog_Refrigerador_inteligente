@@ -44,3 +44,12 @@ La problemática surge a la hora de despertar o llegar a casa después de un lar
 
 
 
+----------
+
+# Justificación. #
+
+El motivo por el que propongo esta idea es porque muchas veces no administro bien mi tiempo para ingerir mis alimentos y termino perdiendo tiempo buscando que puedo cocinar en un tiempo determinado, además, esta idea puede aplicarse para realizar las compras con mayor control sin desperdiciar los alimentos pues sabremos en cualquier momento que tenemos y que nos falta en nuestro refrigerador y quizá en otro momento en una despensa.
+
+
+----------
+
