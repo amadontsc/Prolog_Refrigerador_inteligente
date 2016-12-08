@@ -88,3 +88,26 @@ Tambien declare algunas caracteristicas de los platillos que se pueden hacer con
     ingredientes_platillo(sandwich,tomate).
     ingredientes_platillo(sandwich,cebolla).
 
+**Reglas**
+
+Las reglas presentadas a continuación fueron pensadas con el fin de interactuar con los platillos que se pueden realizar, desde simplemente verificar que tengamos los ingredientes para su elaboración hasta filtros para ver si es un platillo rápido o complicado de realizar.
+
+    %platillos
+    platillo(sandwich):- es_Ingrediente(pan_barra),es_Ingrediente(jamon),es_Ingrediente(mostaza),
+    	es_Ingrediente(mayonesa),es_Ingrediente(tomate),es_Ingrediente(cebolla),es_Ingrediente(lechuga),
+    	es_Ingrediente(queso).
+
+    platillo_sencillo(X):- dificultad(X,Y), Y=sencillo.
+    platillo_sencillo(X):- dificultad(X,Y), Y=muy_sencillo.
+    
+    platillo_complicado(X):- dificultado(X,Y), Y=poco_complicado.
+    platillo_complicado(X):- dificultado(X,Y), Y=complicado.
+    
+    platillo_rapido(X):- tiempo_de_preparacion_min(X,Y), Y<15.
+    
+    platillo_grande(X):- tiempo_de_preparacion_min(X,Y), Y>=15.
+    
+
+----------
+
+
