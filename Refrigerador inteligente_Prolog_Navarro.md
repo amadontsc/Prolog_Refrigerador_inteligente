@@ -158,3 +158,17 @@ Ahora, con la última regla podemos conocer el caso contrario, es decir, los pla
 
 ----------
 
+# Conclusión. #
+
+Siendo un novato en prolog puedo decir que este lenguaje te obliga a cambiar tu manera de pensar a la hora de programar, en mi caso particular me enseño a utilizar un poco mejor las banderas en otros lenguajes, es decir, un evento puede ser manipulado de diferente manera dependiendo de la respuesta del sistema en base a sus conocimientos. Puedo decir que esta práctica fue un éxito a pesar de los problemas iniciales a la hora de plantear el problema. Espero y este ejemplo les sirva a otras personas para introducirse en este lenguaje. 
+
+**Este contenido queda libre para su uso en fines educativos.** 
+
+
+----------
+
+# Referencias. #
+
+https://www.youtube.com/channel/UC63Y8LFYXIJks7ulKBp7q2A - Gustavo Dejean.
+http://www.quehayenlanevera.com
+http://www.sc.ehu.es/jiwhehum2/prolog/Temario/Tema1.pdf
